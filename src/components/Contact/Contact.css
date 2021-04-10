@@ -1,0 +1,48 @@
+.xtend {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.35)
+    );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 5% 0 5%;
+}
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-X {
+    max-width: 450px;
+}
+.btn-X {
+    outline: none;
+    font-size: 1.5rem;
+    border: 2px #1f1f1f solid;
+    background: none;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 5%;
+    color: #1f1f1f;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+    .btn-X {
+        font-size: 1rem;
+    }
+}

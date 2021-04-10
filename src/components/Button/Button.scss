@@ -1,0 +1,32 @@
+.btn {
+    outline: none;
+    font-size: 2rem;
+    border: 2px white solid;
+    background: none;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #087e8b;
+    border-color: #087e8b;
+}
+.btn:focus {
+    color: #087e8b;
+    border-color: #087e8b;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(#fff, 0);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #087e8b;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .btn {
+        font-size: 1rem;
+    }
+}

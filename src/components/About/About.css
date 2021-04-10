@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.aboutContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myImage {
+    height: 500px;
+}
+.tech {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-column-gap: 20px;
+}
+.box {
+    display: flex;
+    padding-left: 10%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+}

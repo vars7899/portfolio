@@ -1,0 +1,45 @@
+.btn {
+  outline: none;
+  font-size: 2rem;
+  border: 2px white solid;
+  background: none;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #087e8b;
+  border-color: #087e8b;
+}
+
+.btn:focus {
+  color: #087e8b;
+  border-color: #087e8b;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #087e8b;
+            box-shadow: 0 0 0 0 #087e8b;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #087e8b;
+            box-shadow: 0 0 0 0 #087e8b;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=Button.css.map */

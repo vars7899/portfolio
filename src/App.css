@@ -1,38 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.startAnimation {
+    display: none;
+}
 .App {
-  text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittleText {
+    font-size: 3rem;
+    color: #087e8b;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tittleBottom {
+    margin-bottom: 3%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text1 {
+    font-size: 4.5rem;
 }
-
-.App-link {
-  color: #61dafb;
+.typer {
+    font-size: 3.7rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text2 {
+    font-size: 2rem;
+}
+.text3 {
+    font-size: 1.5rem;
+}
+.text4 {
+    font-size: 1.25rem;
+}
+.text5 {
+    font-size: 1rem;
+}
+.contain {
+    max-width: 650px;
+}
+.light {
+    color: #f2f2f883;
+}
+.dark {
+    color: #1f1f1f;
+}
+.bold {
+    font-weight: bolder;
+}
+.contrast {
+    color: #087e8b;
+}
+.workText1 {
+    font-size: 1.25rem;
+}
+.workText2 {
+    font-size: 0.75rem;
+}
+@media screen and (max-width: 675px) {
+    .text1 {
+        font-size: 3.5rem;
+    }
+    .text2 {
+        font-size: 2rem;
+    }
+    .text3 {
+        font-size: 1.25rem;
+    }
+    .text4 {
+        font-size: 1rem;
+    }
+    .text5 {
+        font-size: 0.75rem;
+    }
+    .tittleText {
+        font-size: 2rem;
+    }
+    .typer {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .text1 {
+        font-size: 2.5rem;
+    }
+    .text2 {
+        font-size: 1.5rem;
+    }
+    .text3 {
+        font-size: 1rem;
+    }
+    .typer {
+        font-size: 2rem;
+    }
 }
